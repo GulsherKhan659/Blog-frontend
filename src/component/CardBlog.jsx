@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function CardBlog({ imgUrl, title, category, createdAt, slag }) {
     return (
-        <Grid item xs={6} sm={3} md={3}>
+        <Grid item xs={6} sm={6} md={3}>
             <Box sx={{
                 marginX: {
                     xs: '10px',
