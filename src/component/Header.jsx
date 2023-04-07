@@ -39,7 +39,7 @@ function Header() {
                     </Box>
                 </Toolbar>
                 <Box>
-                    <Box sx={{ display: { xs: 'block', sm: 'flex', md: 'none' } }}>
+                    <Box sx={{ display: { xs: 'block', sm: 'block', md: 'none' } }}>
                         <MenuIcon onClick={() => setDOpen(true)} />
                         <Drawer open={dOpen} anchor='right' onClose={() => setDOpen(false)}>
                             <Box sx={{ marginX: '30px', marginTop: '30px' }}>
@@ -48,7 +48,7 @@ function Header() {
 
                         </Drawer>
                     </Box>
-                    <Stack sx={{ display: { xs: 'none', sm: 'flex', md: 'flex' } }} direction={'row'}>
+                    <Stack sx={{ display: { xs: 'none', sm: 'none', md: 'flex' } }} direction={'row'}>
                         <NavLinks txtColor={'#FFF'} />
                     </Stack>
 
